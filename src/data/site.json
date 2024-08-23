@@ -1,12 +1,12 @@
 {
-  "owner": "John Smith",
-  "siteName": "John Smith's Portfolio",
-  "siteDescription": "John Smith's Portfolio for potential employers",
-  "about": "I'm a web developer from Anytown, USA. I like to build things with HTML, CSS, and JavaScript.",
+  "owner": "DATA CABLING TEXOMA",
+  "siteName": "DATA CABLING TEXOMA",
+  "siteDescription": "Welcome to Data Cabling Texoma, your go-to provider for professional network cabling, wiring, and structured cabling services across Texoma. We specialize in installing, repairing, and maintaining data networking, voice and data cabling, and telephone systems for both residential and commercial properties. Whether you need Cat5, Cat5e, or Cat6 cables, server room organization, audio/video setups, or computer relocations, our expert team ensures efficient and reliable network solutions tailored to your needs.",
+  "about": "Data Cabling Texoma is your trusted partner for all network cabling and wiring needs across Texoma. We specialize in designing, installing, and maintaining structured cabling systems for both residential and commercial properties. From data and voice cabling to server room setups and computer relocations, our team ensures your network operates smoothly and efficiently. Whether upgrading existing infrastructure or building new systems, Data Cabling Texoma delivers reliable solutions tailored to your unique requirements.",
   "contact": {
-    "email": "bob@aol.com",
-    "phone": "555-555-5555",
-    "address": "1234 Main St. Anytown, USA 12345"
+    "email": "info@datacablingtexoma.com",
+    "phone": "646-841-6483",
+    "address": "10916 Lois Lane, Kingston, OK, USA, 73439"
   },
   "pages": [
     {
