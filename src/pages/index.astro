@@ -1,20 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-import Header from "../components/Header.astro";
-import CTA from "../components/CTA.astro";
-import FeatureList from "../components/FeatureList.astro";
 
-import Timeline from "../components/Timeline.astro";
+import Pricing from "../components/Pricing.astro";
+import FeatureList from "../components/FeatureList.astro";
+import CustomImageScroll from "../components/CustomImageScroll.astro";
+import Carousel from "../components/Carousel.astro";
+import FAQ from "../components/FAQ.astro";
+
+
 
 import data from "../data/site.json";
 ---
 
 <Layout title={data.siteName}>
   <main>
-    <Header />
-    <CTA />
+    <Carousel />
     <FeatureList />
-    <Timeline />
+    <CustomImageScroll />
+    <FAQ/>
+    <Pricing />
+    
   </main>
 </Layout>
