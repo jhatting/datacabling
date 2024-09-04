@@ -1,0 +1,36 @@
+---
+const title = "Projects";
+const subtitle = "Some Projects";
+
+import Layout from "../layouts/Layout.astro";
+
+
+import FAQ from "../components/FAQ.astro";
+import FAQ1 from "../components/FAQ1.astro";
+import FAQ2 from "../components/FAQ2.astro";
+import FAQ3 from "../components/FAQ3.astro";
+import FAQ4 from "../components/FAQ4.astro";
+import FAQ5 from "../components/FAQ5.astro";
+import FAQ6 from "../components/FAQ6.astro";
+import FAQ7 from "../components/FAQ7.astro";
+
+
+
+import data from "../data/site.json";
+---
+
+<Layout title={data.siteName}>
+  <main>
+    
+    <FAQ/>
+    <FAQ1/>
+    <FAQ2/>
+    <FAQ3/>
+    <FAQ4/>
+    <FAQ5/>
+    <FAQ6/>
+    <FAQ7/>
+   
+    
+  </main>
+</Layout>
