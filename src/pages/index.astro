@@ -1,24 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
-
-import FeatureList from "../components/FeatureList.astro";
-import CustomImageScroll from "../components/CustomImageScroll.astro";
 import Carousel from "../components/Carousel.astro";
-import Team   from "../components/Team.astro";
-
-
-
+import Service   from "../components/Service.astro";
 import data from "../data/site.json";
-import ProductCategories from "../components/ProductCategories.astro";
 ---
 
 <Layout title={data.siteName}>
   <main>
     <Carousel />
-    
-    <Team  />
-  
-    
+    <Service  />
   </main>
 </Layout>
