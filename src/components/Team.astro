@@ -7,56 +7,64 @@ const team = [
     name: "Network Cabling",
     title: "$250 minimum",
     bio: "Installation and maintenance of network cables for businesses and homes.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Network%20Cabling,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Network%20Cabling,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Network%20Cabling,a%20few%20days.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Structured Cabling",
     title: "$750 minimum",
     bio: "Designing and implementing structured cabling systems.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Structured%20Cabling,125%20per%20hour",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Structured%20Cabling,125%20per%20hour",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Structured%20Cabling,performance%20and%20reliability.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Voice & Data Cabling",
     title: "$200 minimum",
     bio: "Setup for voice and data transmission.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Voice%20%26%20Data%20Cabling,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Voice%20%26%20Data%20Cabling,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Voice%20%26%20Data,in%20optimal%20condition.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Computer Relocation",
     title: "$100 minimum",
     bio: "Relocating computers and ensuring network connectivity.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Computer%20Relocation,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Computer%20Relocation,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Computer%20Relocation,is%20fully%20operational.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Audio/Video",
     title: "$800 minimum",
     bio: "Installation of audio and video systems.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Audio/Video%20Installation,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Audio/Video%20Installation,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Audio/Video,systems%20running%20smoothly.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Server/Equipment Room Cleanup",
     title: "$500 minimum",
     bio: "Organizing and managing server rooms.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Server/Equipment%20Room,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Server/Equipment%20Room,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Server/Equipment,and%20efficient%20operation.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Telephone Wiring",
     title: "$150 minimum",
     bio: "Installation and maintenance of telephone lines.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Telephone%20Wiring,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Telephone%20Wiring,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Telephone%20Wiring,setup%20and%20troubleshooting",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
   {
     name: "Ring Doorbell & Camera Installation",
     title: "$120 minimum",
     bio: "Installing security cameras and doorbells.",
-    github: "https://www.datacablingtexoma.com/pricing/#:~:text=Ring%20Doorbell%20%26%20Camera,Get%20started",
+    price: "https://www.datacablingtexoma.com/pricing/#:~:text=Ring%20Doorbell%20%26%20Camera,Get%20started",
+    faq: "https://www.datacablingtexoma.com/faq/#:~:text=FAQ%20%3A%20Ring%20Doorbell,effectively%20over%20time.",
     image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
   },
 ];
@@ -88,7 +96,7 @@ const team = [
 
             <div class="p-5">
               <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                <a href={member.github}>{member.name}</a>
+                <a href={member.price}>{member.name}</a>
               </h3>
               <span class="text-gray-500 dark:text-gray-400">
                 {member.title}
@@ -99,7 +107,7 @@ const team = [
               <ul class="flex space-x-4 sm:mt-0">
                 <li>
                   <a
-                    href={member.github}
+                    href={member.faq}
                     class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                   >
                     <svg
